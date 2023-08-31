@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Rajcoding18
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning B.C.A CT&CS
-- 💞️ I’m looking to collaborate
+- 💞️ I’m looking to collaborate website building.
 - 📫 How to reach me ...
 
 <!---

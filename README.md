@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Rajcoding18
 - 👀 I’m interested in coding
-- 🌱 I’m currently learning B.C.A CT&CS
+- 🌱 I’m currently learning Cloud Technology and cyber security.
 - 💞️ I’m looking to collaborate website building.
 - 📫 How to reach me ...
 

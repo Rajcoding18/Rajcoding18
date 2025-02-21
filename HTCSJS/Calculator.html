@@ -1,0 +1,84 @@
+<!-- FORM  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit= 'sendemail()'>
+            <label for="Name">Name:</label><br>
+            <input type="text" id="name" placeholder="Enter your name"><br>
+            <label for="contact">Contact:</label><br>
+            <input type="number" id="contact" placeholder="+91 6200248541 "><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="Example@gmail.com"><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" placeholder="Enter your message here..." style="height: 50px;" style="align-items: top;"><br>
+            <button class="button">Submit</button>
+        </form>
+    </div> 
+
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mycalculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="website/Netflix Clone/apple-bg-tv.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/e88ec23a49.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <input class="input" type="text">
+        </div>
+        <div class="row">
+            <button class="button" id="clrred">AC</button>
+            <button class="button" id="clrgreen">/</button>
+            <button class="button" id="clrgreen">%</button>
+            <button class="button" id="clrgreen">DEL</button>
+        </div>
+        <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button" id="clrgreen">*</button>
+        </div>
+        <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button" id="clrgreen">-</button>
+        </div>
+        <div class="row">
+            <button class="button">3</button>
+            <button class="button">2</button>
+            <button class="button">1</button>
+            <button class="button" id="clrgreen">+</button>
+        </div>
+        <div class="row">
+            <button class="button" id="zero">0</button>
+            <button class="button" id="clrgreen">.</button>
+            <button class="button" id="equal">=</button>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
